@@ -1,4 +1,4 @@
-# -Crud-Angular-SpringBoot
+# Crud-Angular-SpringBoot
 Projeto crud com angular e springboot
 
 ##
