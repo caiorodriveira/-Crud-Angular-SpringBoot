@@ -1,5 +1,10 @@
 # Crud-Angular-SpringBoot
 Projeto crud com Angular, Springboot, REST e PostgreeSql
+<br>IDEs e programas utilizados:
+<br>VSCode: Angular CLI
+<br>SpringTools 4: SpringBoot
+<br>PostgreSQL: Gerenciamento de banco de dados
+<br>Postman: Testes e verificação de APIs
 
 # Instruções
 Siga as instruções na ordem em que estão, para poder testar e rodar o projeto corretamente.
