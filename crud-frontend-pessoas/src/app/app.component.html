@@ -54,16 +54,16 @@
     </thead>
     <tbody>
       <tr *ngFor="let item of pessoas">
-        <th>{{item.id}}</th>
-        <th>{{item.nome}}</th>
-        <th>{{item.sobrenome}}</th>
-        <th>{{item.idade}}</th>
-        <th>{{item.pais.nome}}</th>
-        <th>{{item.estado.nome}}</th>
-        <th class="d-flex">
+        <td>{{item.id}}</td>
+        <td>{{item.nome}}</td>
+        <td>{{item.sobrenome}}</td>
+        <td>{{item.idade}}</td>
+        <td>{{item.pais.nome}}</td>
+        <td>{{item.estado.nome}}</td>
+        <td class="d-flex">
           <button type="button" class="btn btn-success" (click)="editar(item)">Editar</button>
           <button type="button" class="btn btn-danger" (click)="remover(item)">Remover</button>
-        </th>
+        </td>
       </tr>
     </tbody>
 

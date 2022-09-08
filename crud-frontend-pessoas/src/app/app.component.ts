@@ -69,7 +69,7 @@ export class AppComponent implements OnInit {
         this.pessoas = this.pessoas.filter(
           (pessoa: any) => response.id !== pessoa.id
         );
-        this.pessoas.push(response); //assincrono
+        this.pessoas.push(response); 
       },
       (error) => {
         console.error(error);
